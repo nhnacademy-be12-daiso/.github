@@ -109,7 +109,7 @@
 <br>
 
 ### ERD
-![ERD](https://github.com/user-attachments/assets/ebbc3731-afee-4fce-a643-84ba7e91a6e9)
+![ERD](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/erd-cloud.png)
 
 <br>
 
@@ -118,7 +118,7 @@
 > `notion`을 활용하여 회의록 및 문서, 이슈 관리
 
 ### Scrum
-![Scrum Capture](https://github.com/user-attachments/assets/2e36629d-baed-4e56-9eb1-41ea5cae7965)
+![Scrum](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/Daily%20Scrum%20-%20%E1%84%92%E1%85%A1%E1%84%85%E1%85%AE%E1%84%81%E1%85%A5.png)
 - 시간
     - 매일 09:30 Scrum Meeting 진행
 - 회의 내용
@@ -131,16 +131,18 @@
 - github RoadMap 활용으로 전체적인 일정 진행상황 관리
 - 요구사항을 이슈로 작성해 역할을 분담한 후 일정 관리
 
-![RoadMap Capture](https://github.com/user-attachments/assets/8e31f503-a2cb-4de3-a0b1-d66cfceb34ef)
+![RoadMap](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/Github%20RoadMap.png)
 
 
 - github Kanban 활용으로 실시간 진행 상황 관리
 
-![Kanban Capture](https://github.com/user-attachments/assets/4608830b-b66b-4f48-837f-122b01ac0059)
+![Kanban](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/Github%20Project.png)
 
 - 각자 현황을 실시간으로 업데이트하여 팀원들과 공유
 
-![notion Capture](https://github.com/user-attachments/assets/115aae67-d856-442e-8837-6e8afb9af787)
+![notion](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/%E1%84%80%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%A1%20%E1%84%92%E1%85%A7%E1%86%AB%E1%84%92%E1%85%AA%E1%86%BC%20.png)
+
+![issue](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/notion-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%B2.png)
 
 # 기능
 ## 김유진
