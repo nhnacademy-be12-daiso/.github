@@ -19,7 +19,7 @@
     - Spring Boot: 3.5.7
     - Spring Cloud
         - Spring Cloud Gateway
-        - Spring Cloud Netflex(Eureka)
+        - Spring Cloud Netflix (Eureka)
         - Spring Cloud Config
         - Spring Cloud OpenFeign
     - Spring Data
@@ -39,7 +39,7 @@
     - MySQL: 8.0.41
     - Redis
 - 검색엔진
-    - Elastic Search: 8.19.3
+    - Elasticsearch: 8.19.3
 - ERD
     - ERDCloud
 - Message Queue
@@ -162,9 +162,36 @@
 
 
 ## 양진영
-### 회원
+### 회원 (User & Account)
+- MSA 환경에서의 안전한 인증/인가 및 회원 생애주기 관리 담당
 
-### 계정
+#### 회원 가입
+- BCrypt 알고리즘을 활용한 비밀번호 암호화 및 개인정보 마스킹 처리
+- SMTP(JavaMailSender) + Redis를 활용한 이메일 인증
+  - 회원가입
+  - 아이디 / 비밀번호 찾기
+  - 휴면 계정 해제
+- Redis TTL 기반 인증 번호 관리로 보안성 및 만료 처리 자동화
+
+#### 마이페이지 · 배송지 관리
+- 회원 정보 수정, 비밀번호 변경, 회원 탈퇴(Soft Delete) 기능 구현
+- 배송지 관리 CRUD 및 기본 배송지 설정 로직 구현
+  - `@Modifying`을 활용한 기본 배송지 일괄 업데이트 최적화
+
+#### 포인트 · 등급 시스템
+- 전략 패턴(Strategy Pattern)을 적용한 포인트 적립 / 사용 정책 관리
+- 포인트 이력(History) 추적 및 상태 관리
+- 회원 등급(Grade) 스키마 설계 및 등급 변경 이력 관리
+
+#### 관리자 기능 · 성능 최적화
+- QueryDSL 기반 동적 쿼리 구현
+  - 다중 조건 검색
+  - 페이징 처리 및 성능 최적화
+- JPA Fetch Join / `@EntityGraph` 설정을 통한 N+1 문제 해결
+
+#### 테스트 및 품질 관리
+- JUnit5, Mockito 기반 Unit / Integration Test 작성
+- SonarQube 기준 테스트 커버리지 70% 이상 달성
 
 ## 김보경
 ### 결제
