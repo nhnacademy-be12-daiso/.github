@@ -75,7 +75,6 @@
 
 ### CI/CD
 ![Github Action](https://img.shields.io/badge/Github%20Action-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Jenkins](http://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white)
 
 ### DevOps
 ![SonarQube](https://img.shields.io/badge/SonarQube-4E98CD?style=for-the-badge&logo=SonarQube&logoColor=white)
