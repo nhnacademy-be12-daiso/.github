@@ -102,7 +102,7 @@
 
 ## 아키텍쳐 구조
 
-![Architecture](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A5.png)
+![Architecture](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/6dc735ba3d3989dbd893c9f1ee4c8894d52b2a9b/profile/images/%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A5.svg)
 
 <br>
 
@@ -120,7 +120,7 @@
 > `notion`을 활용하여 회의록 및 문서, 이슈 관리
 
 ### Scrum
-![Scrum](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/Daily%20Scrum%20-%20%E1%84%92%E1%85%A1%E1%84%85%E1%85%AE%E1%84%81%E1%85%A5.png)
+![Scrum](https://github.com/nhnacademy-be12-daiso/.github/blob/main/profile/images/Daily%20Scrum%20-%20%ED%95%98%EB%A3%A8%EA%BA%BC.png?raw=true)
 - 시간
     - 매일 09:30 Scrum Meeting 진행
 - 회의 내용
@@ -142,7 +142,7 @@
 
 - 각자 현황을 실시간으로 업데이트하여 팀원들과 공유
 
-![notion](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/%E1%84%80%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%A1%20%E1%84%92%E1%85%A7%E1%86%AB%E1%84%92%E1%85%AA%E1%86%BC%20.png)
+![notion](https://github.com/nhnacademy-be12-daiso/.github/blob/main/profile/images/%EA%B0%81%EC%9E%90%20%ED%98%84%ED%99%A9%20.png?raw=true)
 
 ![issue](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/notion-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%B2.png)
 
