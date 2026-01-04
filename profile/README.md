@@ -102,6 +102,8 @@
 
 ## 아키텍쳐 구조
 
+![Architecture](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/refs/heads/main/profile/images/%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A5.png)
+
 <br>
 
 ## CI/CD
