@@ -231,8 +231,11 @@
 
 ### 데이터베이스와 Elasticsearch 연동
 - MySQL과 Elasticsearch 간의 데이터 동기화 전략 수립
-  - Scheduler를 활용한 할인률 동기화
   - RabbitMQ를 활용한 실시간 데이터 동기화
+  - MySQL 데이터 변경 시 Elasticsearch 자동 업데이트
+- Scheduler를 활용한 활성화된 할인율 정보 동기화
+  - 활성화된 할인율 정보를 주기적으로 Redis에 동기화하여 성능 최적화
+  - Elasticsearch와 MySQL 간의 할인율 정보 일관성 유지
 
 ### 도서 카테고리 (Category)
 - 도서 카테고리 관리 및 계층 구조 구현
