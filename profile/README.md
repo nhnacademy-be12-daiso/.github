@@ -105,6 +105,7 @@
 <br>
 
 ### CI/CD
+![CI/CD](https://github.com/nhnacademy-be12-daiso/.github/blob/225d63cd671e3eabf9b91cf533331a926339653a/profile/images/329893181-b46bf35f-ff4a-486b-b870-d52d47c4beae.png)
 
 <br>
 
