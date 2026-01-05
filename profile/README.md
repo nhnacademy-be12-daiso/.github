@@ -106,8 +106,6 @@
 
 <br>
 
-## CI/CD
-
 <br>
 
 ### ERD
@@ -205,7 +203,27 @@
 ### 인프라
 
 ## 한인혁
-### 인프라
+### 인증/인가
+
+- JWT (JSON Web Token) 기반 보안 아키텍처 구축
+    - Access Token 및 Refresh Token 발급, 검증, 만료(Rotation) 로직 구현
+    - RTR (Refresh Token Rotation) 전략 적용: 보안 강화를 위해 토큰 갱신 시 Refresh Token도 함께 재발급
+    - Redis 기반 토큰 관리: Refresh Token 저장(TTL 설정) 및 로그아웃 시 Access Token 블랙리스트(Blacklist) 처리로 무효화 구현
+- Spring Security & OAuth2 연동 (PAYCO)
+    - Stateless 보안 구성: SessionCreationPolicy.STATELESS 정책 적용 및 CSRF 비활성화, CORS 설정
+    - PAYCO 로그인/회원가입 구현: Authorization Code Grant 방식을 활용한 OAuth2 인증 흐름 제어
+    - 보안 강화: Redis를 활용한 State 파라미터 검증으로 CSRF(Cross-Site Request Forgery) 공격 방지
+- MSA 간 통신 및 예외 처리
+    - OpenFeign 연동: UserServiceClient를 통해 User Service와 통신하며 회원 가입 및 로그인 처리
+    - Global Exception Handling: GlobalExceptionHandler를 통해 인증 실패, 계정 상태(휴면/탈퇴) 등 다양한 예외 상황에 대한 표준화된 응답 처리
+
+### CI/CD 및 인프라 (DevOps)
+- GitHub Actions 기반 CI/CD 파이프라인 구축
+    - Maven 빌드, Docker Image 생성 및 Docker Hub 푸시 자동화
+    - SonarQube 연동: 정적 코드 분석 및 테스트 커버리지(95% 이상) 품질 게이트(Quality Gate) 적용
+- Docker Compose 기반 고가용성(HA) 배포
+    - Rolling Update 구현: 쉘 스크립트를 통해 다중 컨테이너(team3-auth-1, team3-auth-2)를 순차적으로 재시작하여 무중단 배포 구현
+    - Health Check 도입: Spring Boot Actuator Health Check를 통해 컨테이너가 정상 구동(UP)된 후 트래픽을 전환하도록 배포 안정성 확보
 
 ## 신준식
 ### 검색 (Search)
