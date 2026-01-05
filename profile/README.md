@@ -100,7 +100,7 @@
 
 ## 아키텍쳐 구조
 
-![Architecture](https://raw.githubusercontent.com/nhnacademy-be12-daiso/.github/6dc735ba3d3989dbd893c9f1ee4c8894d52b2a9b/profile/images/%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A5.svg)
+![Architecture](https://github.com/nhnacademy-be12-daiso/.github/blob/main/profile/images/%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%B5%E1%84%90%E1%85%A6%E1%86%A8%E1%84%8E%E1%85%A5.png?raw=true)
 
 <br>
 
