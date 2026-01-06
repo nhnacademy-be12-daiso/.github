@@ -339,10 +339,6 @@
   - 도서에 대한 벡터 정보 생성 및 Elasticsearch에 저장
   - MySQL과 Elasticsearch 간의 데이터 일관성 유지
 
-### 테스트 및 성능 최적화
-- JUnit5와 Mockito를 활용한 단위 테스트 및 통합 테스트 작성
-- SonarQube를 활용한 코드 품질 관리 및 테스트 커버리지 (80% 이상) 달성
-
 ## 팀원 공통
 - 데이터베이스 설계 및 ERD Diagram 작성
 
