@@ -20,7 +20,6 @@
     - Spring Cloud
         - Spring Cloud Gateway
         - Spring Cloud Netflix (Eureka)
-        - Spring Cloud Config
         - Spring Cloud OpenFeign
     - Spring Data
         - Spring Data JPA
@@ -28,8 +27,6 @@
         - Spring Data Redis
     - JPA
         - QueryDSL
-    - Connection Pool
-        - Apache Commons DBCP2
 - 테스트
     - Junit5
     - AssertJ
@@ -173,7 +170,7 @@
     - `Order API`가 비즈니스 오류가 발생한 서비스로부터 실패 메세지를 수신받음
     - 보상 이벤트를 발행하고 그 이전 서비스부터 순차적으로 보상 트랜잭션을 시작함
 
-### (추가) 정합성과 멱등성 보장을 위한 Outbox 패턴과 Deduplication Log 도입
+### 정합성과 멱등성 보장을 위한 Outbox 패턴과 Deduplication Log 도입
 - **Outbox 패턴**
 
 ![outbox.png](images/outbox.png)
@@ -182,7 +179,7 @@
   2. Outbox에 저장된 이후 (트랜잭션이 커밋된 이후) 즉시 Outbox 테이블을 읽어 전송되지 않은 메세지를 전송함
   3. 만약 전송 실패 시, 스케줄러에 의해 전송되지 않은 메세지를 전송함
   4. 적어도 한번 (`At-least-once delivery`) 전송됨을 보장
-- (추가) **멱등성 보장**을 위한 `Deduplication Log`의 도입
+- **멱등성 보장**을 위한 `Deduplication Log`의 도입
   - Outbox는 '적어도 한번 전송'은 보장하지만 '두번 이상 전송'이 발생할 가능성을 가지고 있음
   - 요청이 두번 전송되게 되면 로직이 두번 수행되는 **멱등성 위반**이 발생함
   - 이것을 방지하기 위해 각 서비스별로 `Deduplication Log` 테이블을 두고, 요청마다 Log를 기록하여 중복 요청시 무시하도록 함
@@ -297,14 +294,9 @@
 - 주문시 쿠폰 적용 구현
     - 도서 별 쿠폰 적용 가능 여부 확인
     - 도서 별 쿠폰 적용
-    
-
-
-### 인프라
-
 
 ## 한인혁
-### 인증/인가
+### 인프라, 인증/인가
 
 - JWT (JSON Web Token) 기반 보안 아키텍처 구축
     - Access Token 및 Refresh Token 발급, 검증, 만료(Rotation) 로직 구현
