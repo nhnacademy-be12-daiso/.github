@@ -85,6 +85,7 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
 ![Junit5](https://img.shields.io/badge/Junit5-25A162?style=for-the-badge&logo=Junit5&logoColor=white)
 </br>
+![RabbitMQ](https://camo.githubusercontent.com/661f1fb62b66d00114052a4c749e4ab1a8aeef5701b0e90f46f4cd186c49d59f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7261626269746d712d4646363630303f7374796c653d666f722d7468652d6261646765266c6f676f3d7261626269746d71266c6f676f436f6c6f723d7768697465)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 </br>
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
